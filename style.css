@@ -37,10 +37,15 @@
 
 .nombres {
     display: inline-block;
+    padding: 15px;
+    border: 2px solid black;
+    width: 200px;
+
 }
 
 .form {
     text-align: center;
+    padding: 15px;
 }
 
 @media screen {
