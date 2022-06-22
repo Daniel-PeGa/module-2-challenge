@@ -1,0 +1,48 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient( rgb(162 24 24) 0%, rgb(93 24 24) 100% );
+}
+
+.header-name{
+    display: block;
+    margin: 0 auto;
+    min-height: 40px;
+    width: fit-content;
+    font-size: 35px;
+    font-style: oblique;
+}
+.img-header {
+    max-width: 250px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+
+.p {
+    min-height: 35px;
+    font-size: 20px;
+}
+
+.contact {
+   height: 250px; 
+   width: 500px;
+   border: 2px solid black;
+   text-align: center;
+}
+
+.nombres {
+    display: inline-block;
+}
+
+.form {
+    text-align: center;
+}
+
+@media screen {
+    
+}
