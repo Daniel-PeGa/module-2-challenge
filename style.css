@@ -38,7 +38,16 @@ h2 {
 .header-list {
     display: -webkit-inline-box;
     list-style: none;
-
+    font-size: large;
+    
+}
+.top-list {
+    padding: 2px;
+}
+.listilla {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: flex-end;
 }
 .img-header {
     max-width: 250px;
@@ -55,6 +64,10 @@ h2 {
 
 section {
     border: 2px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: -webkit-fill-available;
 }
 
 .contact {
